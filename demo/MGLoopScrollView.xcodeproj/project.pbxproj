@@ -117,13 +117,9 @@
 		F8E9C40121AFE47C0010C6EA /* MGLoopScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				F8E9C43421AFE48B0010C6EA /* Images */,
+				F8E9C44921B4D6330010C6EA /* MGLoopScrollView */,
 				F8E9C40221AFE47C0010C6EA /* AppDelegate.h */,
 				F8E9C40321AFE47C0010C6EA /* AppDelegate.m */,
-				F8E9C43F21AFE4B70010C6EA /* MGLoopScrollView.h */,
-				F8E9C44021AFE4B70010C6EA /* MGLoopScrollView.m */,
-				F8E9C44521AFF6650010C6EA /* UIView+Frame.h */,
-				F8E9C44621AFF6650010C6EA /* UIView+Frame.m */,
 				F8E9C44821AFF98E0010C6EA /* ViewController.h */,
 				F8E9C40621AFE47C0010C6EA /* ViewController.m */,
 				F8E9C40821AFE47C0010C6EA /* Main.storyboard */,
@@ -163,6 +159,18 @@
 				F8E9C43921AFE48B0010C6EA /* 005.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		F8E9C44921B4D6330010C6EA /* MGLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F8E9C43421AFE48B0010C6EA /* Images */,
+				F8E9C43F21AFE4B70010C6EA /* MGLoopScrollView.h */,
+				F8E9C44021AFE4B70010C6EA /* MGLoopScrollView.m */,
+				F8E9C44521AFF6650010C6EA /* UIView+Frame.h */,
+				F8E9C44621AFF6650010C6EA /* UIView+Frame.m */,
+			);
+			path = MGLoopScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
