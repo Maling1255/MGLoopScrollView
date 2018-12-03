@@ -13,20 +13,13 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "LICENSE" }
-
-
   s.author             = { "maling" => "maling@amberweather.com" }
+  s.platform     = :ios,"9.0"
+  s.source       = { :git => "https://github.com/Maling1255/MGLoopScrollView.git", :tag => s.version }
 
-  s.platform     = :ios
+  s.source_files  = "MGLoopScrollView/*.{h,m}"
 
-  s.source       = { :git => "https://github.com/Maling1255/MGLoopScrollView.git", :tag => "0.0.1" }
-
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
-  s.public_header_files = "Classes/**/*.h"
-
+  #s.public_header_files = "MGLoopScrollView/MGLoopScrollView.h", "MGLoopScrollView/**/*.h"
 
   s.requires_arc = true
 
