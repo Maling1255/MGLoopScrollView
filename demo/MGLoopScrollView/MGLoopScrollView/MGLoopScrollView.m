@@ -212,12 +212,16 @@ static NSString *const MGNull = @"MGNull";
         
         NSLog(@">>>>>>>>>  存在定时器");
         
-//        self.timer = nil;
-//        [self.timer invalidate];
+        // 关闭定时器
+        [self.timer setFireDate:[NSDate distantFuture]];
         
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            
+            //开启定时器
+            [self.timer setFireDate:[NSDate distantPast]];
         
+        });
         
-//        [self setupTimer];
     }
     
 }
@@ -307,8 +311,9 @@ static NSString *const MGNull = @"MGNull";
 
 - (void)dealloc
 {
-    self.timer = nil;
     [self.timer invalidate];
+    
+    self.timer = nil;
 }
 
 @end
