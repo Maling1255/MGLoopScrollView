@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8C5B94721B94B3C00A8EE5F /* MGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C5B94621B94B3C00A8EE5F /* MGImageView.m */; };
 		F8E9C40421AFE47C0010C6EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E9C40321AFE47C0010C6EA /* AppDelegate.m */; };
 		F8E9C40721AFE47C0010C6EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E9C40621AFE47C0010C6EA /* ViewController.m */; };
 		F8E9C40A21AFE47C0010C6EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E9C40821AFE47C0010C6EA /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8C5B94521B94B3C00A8EE5F /* MGImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGImageView.h; sourceTree = "<group>"; };
+		F8C5B94621B94B3C00A8EE5F /* MGImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGImageView.m; sourceTree = "<group>"; };
 		F8E9C3FF21AFE47C0010C6EA /* MGLoopScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGLoopScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E9C40221AFE47C0010C6EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8E9C40321AFE47C0010C6EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 			children = (
 				F8E9C43F21AFE4B70010C6EA /* MGLoopScrollView.h */,
 				F8E9C44021AFE4B70010C6EA /* MGLoopScrollView.m */,
+				F8C5B94521B94B3C00A8EE5F /* MGImageView.h */,
+				F8C5B94621B94B3C00A8EE5F /* MGImageView.m */,
 				F8E9C44521AFF6650010C6EA /* UIView+Frame.h */,
 				F8E9C44621AFF6650010C6EA /* UIView+Frame.m */,
 			);
@@ -310,6 +315,7 @@
 			files = (
 				F8E9C40721AFE47C0010C6EA /* ViewController.m in Sources */,
 				F8E9C44121AFE4B70010C6EA /* MGLoopScrollView.m in Sources */,
+				F8C5B94721B94B3C00A8EE5F /* MGImageView.m in Sources */,
 				F8E9C41221AFE47E0010C6EA /* main.m in Sources */,
 				F8E9C44721AFF6650010C6EA /* UIView+Frame.m in Sources */,
 				F8E9C40421AFE47C0010C6EA /* AppDelegate.m in Sources */,

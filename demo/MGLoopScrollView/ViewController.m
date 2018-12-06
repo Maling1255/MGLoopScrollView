@@ -35,11 +35,7 @@
                              [UIImage imageNamed:@"002.jpg"],
                              [UIImage imageNamed:@"003.jpg"],
                              [UIImage imageNamed:@"004.jpg"],
-                             [UIImage imageNamed:@"005.jpg"],
-                             [UIImage imageNamed:@"002.jpg"],
-                             [UIImage imageNamed:@"004.jpg"],
-                             [UIImage imageNamed:@"001.jpg"],
-                             [UIImage imageNamed:@"003.jpg"]].mutableCopy;
+                             [UIImage imageNamed:@"005.jpg"]].mutableCopy;
     
     [loopScrollView setTapEvent:^(NSInteger index) {
         
